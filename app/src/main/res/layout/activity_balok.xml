@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8D9CFFA6"
+    tools:context=".Balok">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/chewy"
+        android:text="Hitung Volume Balok"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPjg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/chewy"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="Panjang Balok"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etLebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/chewy"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="Lebar Balok"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etTinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/chewy"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="Tinggi Balok"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/chewy"
+        android:text="Hitung" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/chewy"
+        android:text="Hasil"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/chewy"
+        android:text="0.0"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+</LinearLayout>
